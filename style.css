@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Thin.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Thin.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-ThinItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-ThinItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraLight.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraLight.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraLightItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraLightItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Light.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Light.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-LightItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-LightItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Regular.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Italic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Italic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Medium.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Medium.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-MediumItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-MediumItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-SemiBold.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-SemiBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-SemiBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Bold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-BoldItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-BoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-Black.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-Black.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("\\fonts\\Inter-3.19\\Web\\Inter-BlackItalic.woff2?v=3.19") format("woff2"),
+       url("\\fonts\\Inter-3.19\\Web\\Inter-BlackItalic.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: "Sfui-black";
+  src : url("fonts/SFUIDisplay/SFUIDisplay-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Sfui-regular";
+  src : url("fonts/SFUIDisplay/SFUIDisplay-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sfui-heavy";
+  src : url("fonts/SFUIDisplay/SFUIDisplay-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sfui-bold";
+  src : url("fonts/SFUIDisplay/SFUIDisplay-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Sfui-light";
+  src : url("fonts/SFUIDisplay/SFUIDisplay-Light.otf") format("opentype");
+}
+
+body {
+  background-color : #0A0A0A;
+  margin : 0;
+  padding : 0;
+  height : 100%;
+}
+html {
+  height : 100%;
+}
+.header {
+  display : flex;
+  border-bottom: 1px solid #242424;
+  height: 60px;
+  justify-content: flex-start;
+  gap : 0 10px;
+}
+
+	.logo {
+    display: flex;
+    margin-top: -50px;
+    padding-left: 20px;
+    padding-top: 3px;
+    animation-duration: 3s;
+    animation-name: logo;
+  }
+  
+
+  .logo > svg {
+    width : 30px;
+    transform: rotate(90deg);
+    
+  }
+  .logo:hover {
+    fill-opacity: 1;
+  }
+	.scale {
+	  font-family : "Inter";
+    font-weight: bold;
+  	color : white;
+
+
+	}	
+	.slogan {
+	  display : flex;
+	  justify-content: center;
+	  gap : 0px 13px;
+	  font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size : 1.1em;
+	  letter-spacing: 0em;
+	  text-align:center;
+	  color : white;
+	  padding-top : 50px;
+	  transition  : 1.3s;
+	}
+
+	.hover-slogan:hover {
+	  color : #A3FF66;
+	}
+
+
+#form {
+  display : flex; 
+  justify-content:center;
+  height : 600px;
+  margin-top : 0px;
+}
+form {
+  height: 600px;
+  display : flex;
+  flex-flow : column wrap;
+  /*justify-content:space-between;*/
+  gap : 30px 0px;
+}
+input {
+  display : flex;
+  margin-top: 3px;
+}
+
+.label-email {
+  display : flex;
+  font-family : "Inter";
+  font-size: 1em;
+  color : #A3FF66;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.label-password {
+  display : flex;
+  font-family: "Inter";
+  font-size: 1em;
+  color : #A3FF66;
+  padding-left: 5px;
+  padding-bottom: 5px;
+ 
+}
+input {
+  width : 400px;
+  height: 55px;
+  background-color :  #0A0A0A;
+  border : 2px solid #242424;
+  border-radius : 8px;
+  color : white;
+  text-indent : 10px;
+  transition : 1.4s;
+}
+
+input:hover {
+  border : 2px solid #A3FF66;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+form button {
+  border-radius : 8px;
+  border : 1px solid #242424;
+  height: 40px;
+  background-color : #A3FF66;
+}
+
+form button:hover{
+  box-shadow: inset 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color : white;
+}
+
+.forgot_password{
+  color : white;
+  font-family : "Inter";
+}
+.separator{
+  position: relative;
+}
+hr {
+  border-color : #242424;
+  width :100%;
+
+}
+
+.separator p {
+  position: absolute;
+  color : #A3A3A3;
+  margin-top: -20px;
+  margin-left : 50%;
+  margin-right: 50%;
+  font-family: 'Inter';
+  font-size: 0.9em;
+}
+
+.social-connect {
+  display: flex;
+  flex-flow : column wrap;
+  gap : 10px 0px;
+  position : relative;
+}
+
+.social-connect button{
+  background-color: #0A0A0A;
+  color : white;
+  font-family: "Inter";
+  font-size : 1.06em;
+  height: 50px;
+  position : relative;
+}
+.social-connect .apple-icon {
+ position: absolute;
+ margin-left : 20px;
+ margin-top : 70px;
+ color : white;
+}
+
+.social-connect .google-icon {
+  position : absolute;
+  margin-top : 15px;
+  margin-left : 20px;
+  
+  
+}
+.sign-up {
+  text-align: center;
+  color: #A3FF66;
+}
+
